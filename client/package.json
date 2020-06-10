@@ -1,0 +1,40 @@
+{
+  "name": "musira-client",
+  "version": "0.0.0",
+  "description": "The Musira app frontend.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build ../build/client",
+    "build": "./node_modules/.bin/react-scripts build",
+    "postbuild": "rm -rf ../build/client && mv build ../build/client",
+    "tsc": "./node_modules/.bin/tsc",
+    "tsc-watch": "./node_modules/.bin/tsc-watch --onSuccess \"npm run build\""
+  },
+  "author": "Chloë Strainge",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "react-scripts": "^3.4.1",
+    "source-map-loader": "^1.0.0",
+    "ts-loader": "^7.0.5",
+    "tsc-watch": "^4.2.8",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
