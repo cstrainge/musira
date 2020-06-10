@@ -1,0 +1,6 @@
+
+{
+    "watch": [ "public" ],
+    "ext": "js",
+    "exec": "node public/build/index.js"
+}
