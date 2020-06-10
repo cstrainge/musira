@@ -1,0 +1,22 @@
+{
+    "name": "musira-frontend",
+    "version": "0.0.0",
+    "description": "The frontend to the Web Audio toy app!",
+    "author": "Chloë Strainge <nullptr.0@gmail.com",
+    "scripts": {},
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "@types/react": "^16.9.35",
+        "@types/react-dom": "^16.9.8",
+        "jshint": "^2.11.1",
+        "source-map-loader": "^1.0.0",
+        "ts-loader": "^7.0.5",
+        "typescript": "^3.9.5",
+        "webpack": "^4.43.0",
+
+        "webpack-cli": "^3.3.11"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "musira",
+    "version": "0.0.0",
+    "description": "A Web Audio toy app!",
+    "author": "Chloë Strainge <nullptr.0@gmail.com",
+    "main": "out/server/index.js",
+    "scripts": {},
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "jshint": "^2.11.1",
+        "typescript": "^3.9.5"
+    }
+}

@@ -1,0 +1,13 @@
+
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/out": true,
+        "**/package-lock.json": true
+    },
+
+    "cSpell.words": [
+        "musira"
+    ],
+    "deno.enable": false
+}
