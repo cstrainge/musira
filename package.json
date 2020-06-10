@@ -2,7 +2,8 @@
     "name": "musira",
     "version": "0.0.0",
     "description": "A Web Audio toy app!",
-    "author": "Chloë Strainge <nullptr.0@gmail.com",
+    "author": "Chloë Strainge <nullpr.0@gmail.com>",
+    "license": "MIT",
     "scripts": {
         "start": "nodemon --config nodemon.json"
     },

@@ -8,7 +8,7 @@
     "postbuild": "rm -rf ../build/client && mv build ../build/client",
     "tsc-watch": "./node_modules/.bin/tsc-watch --onSuccess \"npm run build\""
   },
-  "author": "Chloë Strainge",
+  "author": "Chloë Strainge <nullpr.0@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.9.35",
